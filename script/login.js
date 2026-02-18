@@ -12,7 +12,7 @@ document.getElementById("login-btn").addEventListener("click", function () {
     
         //jodi true hoi: alert dekhabo login successful > home page
         alert("login succesfully")
-        window.location.assign("/homepage.html")
+        window.location.assign("/home.html")
     }else{
         
         //jodi false hoi taile alert dekhabo enter currect and pin
