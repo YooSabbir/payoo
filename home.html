@@ -1,3 +1,5 @@
+<!-- this file name: home.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,5 +73,20 @@
            <p>Transactions</p>
         </button>
     </div>
+    <section id="cashout" class="w-11/12 mx-auto py-5">
+        <h2 class="text-2xl font-bold mb-5">Cashout</h2>
+        <div class="bg-base-100 w-full">
+        <div class="cashout-form-body">
+    <fieldset class="fieldset gap-3">
+        <label class="label text-neutral font-bold">Agent Number</label>
+        <input id="agent-number" minlength="11" maxlength="11" type="text" class="input rounded-full bg-base-200 w-full" placeholder="Enter 11 digit number" />
+        <label class="label text-neutral font-bold">Enter Amount</label>
+        <input id="cashout-amount" maxlength="5" type="text" class="input rounded-full bg-base-200 w-full" placeholder="Enter Amount" />
+        <label class="label text-neutral font-bold">4 Digit Pin</label>
+        <input value="1234" id="cashout-pin" minlength="4" maxlength="4" type="text" class="input rounded-full bg-base-200 w-full" placeholder="Enter 4 digit pin" />
+        <button id="withdraw-btn" class="btn btn-primary mt-4 rounded-full">Withdraw Money</button>    
+    </fieldset>
+        </div>
+    </section>
 </body>
 </html>
